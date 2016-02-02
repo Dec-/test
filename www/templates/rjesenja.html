@@ -1,0 +1,14 @@
+<ion-view view-title="Rjesenja">
+    <ion-nav-buttons side="right">
+        <a class="button button-icon icon ion-android-add" ng-click="onBtnAddClick()"></a>
+    </ion-nav-buttons>
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="item in rjesenja" href="#/app/rjesenja/detalji/{{item.naziv}}" ng-modal="item">
+                {{item.naziv}}
+                <ion-option-button class="button-positive" ng-click="onBtnUpdateClick(item)">Uredi</ion-option-button>
+                <ion-option-button class="button-assertive" ng-click="onBtnDeleteClick(item)">Obriši</ion-option-button>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

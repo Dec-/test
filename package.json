@@ -1,0 +1,15 @@
+{
+    "name": "tvz",
+    "version": "0.1.0",
+    "description": "",
+    "author": "APIS IT d.o.o.",
+    "homepage": "http://www.apis-it.hr/",
+    "license": "APIS IT d.o.o.",
+    "private": true,
+    "dependencies": {
+        "browser-sync": "~2.10.1",
+        "gulp": "~3.9.0",
+        "gulp-help": "~1.6.1",
+        "opn": "~3.0.3"
+    }
+}

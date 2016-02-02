@@ -1,0 +1,9 @@
+/*.sln
+/*.suo
+/*.vs
+/.vs
+/.vscode
+node_modules
+www/vendor
+plugins
+platforms
